@@ -1,0 +1,20 @@
+﻿Build started 3/30/2015 2:25:58 PM.
+     1>Project "C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\Project1d\Project1d.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Ceemple\OpenCV4VS\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Project1d.cpp
+         Project1d.cpp
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/mat.hpp(1958): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>Project1d.cpp(130): warning C4172: returning address of local variable or temporary
+     1>Project1d.cpp(261): warning C4172: returning address of local variable or temporary
+     1>Project1d.cpp(309): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Project1d.cpp(341): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\x64\Debug\Project1d.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Ceemple\OpenCV4VS\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib StatTimer.lib clBLAS.lib clFFT.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_cuda300d.lib opencv_cudaarithm300d.lib opencv_cudabgsegm300d.lib opencv_cudacodec300d.lib opencv_cudafeatures2d300d.lib opencv_cudafilters300d.lib opencv_cudaimgproc300d.lib opencv_cudalegacy300d.lib opencv_cudaoptflow300d.lib opencv_cudastereo300d.lib opencv_cudawarping300d.lib opencv_cudev300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib opengl32.lib glu32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\x64\Debug\Project1d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\x64\Debug\Project1d.lib" /MACHINE:X64 x64\Debug\Project1d.obj
+         Project1d.vcxproj -> C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\x64\Debug\Project1d.exe
+     1>Done Building Project "C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1d\Project1d\Project1d\Project1d.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.08

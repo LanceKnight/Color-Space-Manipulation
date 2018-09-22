@@ -1,0 +1,20 @@
+﻿Build started 3/29/2015 10:57:53 PM.
+     1>Project "C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\OpenCVProject1\OpenCVProject1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (OpenCVProject1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Ceemple\OpenCV4VS\include /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt project1a.cpp
+         project1a.cpp
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/mat.hpp(1958): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Ceemple\OpenCV4VS\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>project1a.cpp(132): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>project1a.cpp(133): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>project1a.cpp(134): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\x64\Debug\OpenCVProject1a.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Ceemple\OpenCV4VS\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib StatTimer.lib clBLAS.lib clFFT.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_cuda300d.lib opencv_cudaarithm300d.lib opencv_cudabgsegm300d.lib opencv_cudacodec300d.lib opencv_cudafeatures2d300d.lib opencv_cudafilters300d.lib opencv_cudaimgproc300d.lib opencv_cudalegacy300d.lib opencv_cudaoptflow300d.lib opencv_cudastereo300d.lib opencv_cudawarping300d.lib opencv_cudev300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib opengl32.lib glu32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\x64\Debug\OpenCVProject1a.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\x64\Debug\OpenCVProject1a.lib" /MACHINE:X64 x64\Debug\project1a.obj
+         OpenCVProject1.vcxproj -> C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\x64\Debug\OpenCVProject1a.exe
+     1>Done Building Project "C:\Users\Yunchao\Documents\courses\15S\Computer Vision\Project1\OpenCVProject1\OpenCVProject1\OpenCVProject1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.07
